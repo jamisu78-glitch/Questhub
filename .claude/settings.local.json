@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(gsd-new-project)",
+      "Skill(gsd-new-project:*)",
+      "Skill(gsd-progress)",
+      "Skill(gsd-progress:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git remote:*)",
+      "Bash(git fetch:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git checkout:*)",
+      "Bash(gh pr create --base main --title 'feat: initialize QuestHub project structure' --body ':*)",
+      "Bash(export PATH=\"/c/Program Files/GitHub CLI:/c/Users/JAMISU78/AppData/Local/GitHub CLI:$PATH\")",
+      "Bash(gh --version)",
+      "Bash(where gh.exe)",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"/c/Program Files/GitHub CLI:$PATH\")",
+      "Bash(gh auth:*)",
+      "Bash(export PATH=\"/c/Program Files/GitHub CLI:/c/Program Files \\(x86\\)/GitHub CLI:$PATH\")"
+    ]
+  }
+}
